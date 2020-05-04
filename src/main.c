@@ -4,6 +4,7 @@
 #include <stdbool.h>
 
 #include "defs.h"
+#include "screen.h"
 
 
 /* All standard definitions in /opt/microchip/xc8/v2.10/pic/include/pic16f886.h */
@@ -24,7 +25,8 @@ void main(void) {
 
 #warning Initialization is not set
   /* Revome this after configuring */
-
+  scr_init();
+  scr_text('-', 'h', 'i', '-');
 
   /* ==================== PROGRAM ==================== */
   while(1) {
