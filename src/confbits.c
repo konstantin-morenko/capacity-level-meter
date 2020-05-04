@@ -24,7 +24,7 @@
 #pragma config IDLOC3 = 0x0
 #pragma config IDLOC2 = 0x0
 #pragma config IDLOC1 = 0x0
-#pragma config IDLOC0 = 0x0
+#pragma config IDLOC0 = 0x9
 
 #warning IdLoc is not set
 /* Revome this after configuring */
