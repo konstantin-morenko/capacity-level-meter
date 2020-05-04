@@ -3,8 +3,8 @@
 
 /* ==================== CONFIG ==================== */
 
-/* /opt/microchip/xc8/v2.10/docs/chips/16f628a.html */
-#pragma config FOSC = INTOSCIO  // INTOSC: I/O function on RA6/RA7
+/* /opt/microchip/xc8/v2.10/docs/chips/16f886.html */
+#pragma config FOSC = INTRC_NOCLKOUT  // INTOSCIO oscillator: I/O function on RA6/OSC2/CLKOUT pin, I/O function on RA7/OSC1/CLKIN
 #pragma config WDTE = OFF       // WDT disabled
 #pragma config PWRTE = OFF      // PWRT disabled
 #pragma config MCLRE = ON       // RA5/MCLR/VPP pin function is MCLR
@@ -13,7 +13,7 @@
 #pragma config CPD = OFF        // Data memory code protection off
 #pragma config CP = OFF         // Code protection off
 
-// #error Config in __FILE__ is not set
+#warning Config is not set
 /* Revome this after configuring */
 
 /* ==================== IDLOC ==================== */
@@ -26,5 +26,5 @@
 #pragma config IDLOC1 = 0x0
 #pragma config IDLOC0 = 0x0
 
-// #error IdLoc in __FILE__ is not set
+#warning IdLoc is not set
 /* Revome this after configuring */
