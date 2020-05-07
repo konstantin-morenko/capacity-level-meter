@@ -27,6 +27,18 @@ inline void scr_flush(void) {
 }
 
 
+/* Записывает сегменты в порт */
+inline void write_segments(char seg) {
+  return;
+}
+
+
+/* Записывает разряды в порт */
+inline void write_digits(char dig) {
+  return;
+}
+
+
 /* Преобразует полученный текст в отображение и сохраняет в буфер */
 void scr_text(char ch4, char ch3, char ch2, char ch1) {
   return;
