@@ -12,6 +12,8 @@
 
 inline void set_tmr0_int(void);
 
+inline void scr_init(void);	/* Из screen.c */
+
 
 void main(void) {
   /* ==================== INIT ==================== */

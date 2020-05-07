@@ -34,8 +34,8 @@ void scr_text(char t1, char t2, char t3, char t4) {
 
 
 /* Настраивает порты и переменные */
-/* Используется в инициализации */
-void scr_init(void) {
+/* Используется только в инициализации */
+inline void scr_init(void) {
   return;
 }
 
