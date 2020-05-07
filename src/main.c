@@ -18,7 +18,7 @@ inline void scr_init(void);	/* Из screen.c */
 void main(void) {
   /* ==================== INIT ==================== */
 
-  /* set_tmr0_int(); */
+  set_tmr0_int();
 
   ANSEL = 0b00000;		/* PORTB */
   ANSELH = 0b000000;		/* PORTC */
